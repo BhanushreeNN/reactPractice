@@ -52,7 +52,7 @@ function FormData2() {
           type="text"
           placeholder=" First name"
           name="fname"
-          fvalue={fullname.fname}
+          value={fullname.fname}
         />
         <br />
         <input
@@ -60,7 +60,7 @@ function FormData2() {
           type="text"
           placeholder=" Last name"
           name="lname"
-          lvalue={fullname.lname}
+          value={fullname.lname}
         />
         <br />
         <input
@@ -68,7 +68,7 @@ function FormData2() {
           type="text"
           placeholder=" E-mail"
           name="email"
-          lvalue={fullname.email}
+          value={fullname.email}
         />
         <button className="button-56">Submit</button>
       </form>
