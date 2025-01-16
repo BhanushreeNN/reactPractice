@@ -1,4 +1,3 @@
-import react from "react";
 function StrikeElement() {
     document.getElementById("sample").style.textDecoration = "line-through";
 }
